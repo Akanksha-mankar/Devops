@@ -30,3 +30,9 @@ What is the Terraform state file, and why is it important?
 Ans:-
     Terraform state file is JSON or the binery file that stores the current state of managed infrstucture.  It is  like a blue print that stores the information about the infrastructure you manage.it is  crucial because terraform understand what already set up the and what change to be made.By comparing the desire state setup with the current one in state file.
 
+
+
+Explain the concept of "Terraform Modules" and their benefits in managing reusable infrastructure code.
+Ans :- 
+    Terraform moudle are the way to encapsulate and resuse code in terraform , infrastructure as a code.
+A moudle in Terrafom like a container for multiple resource that are use together
